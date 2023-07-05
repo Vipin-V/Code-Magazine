@@ -57,3 +57,13 @@ li {
 .related {
   list-style: none;
 }
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: #1098ad solid 5px;
+  border-bottom: #1098ad solid 5px;
+}
