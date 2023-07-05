@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>[Demo] Code Magazine</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -25,7 +26,9 @@
           alt="Picture of laura jones"
           width="50"
         />
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
         <img
           src="img/post-img.jpg"
           alt="HTML code on Screen"
@@ -89,7 +92,7 @@
 
     <aside>
       <h4>Related Posts:</h4>
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="img/related-1.jpg"
@@ -98,12 +101,12 @@
             height="50"
           />
           <a href="#"> How to become a web developer</a><br />
-          <p>by Vipin V</p>
+          <p class="related-author">by Vipin V</p>
         </li>
         <li>
           <img src="img/related-2.jpg" alt="Css" width="50" height="50" />
           <a href="#">The unknown power of Css</a>
-          <p>By Jones Macharthi</p>
+          <p class="related-author">By Jones Macharthi</p>
         </li>
         <li>
           <img
@@ -113,11 +116,13 @@
             height="50"
           />
           <a href="#">Why JavaScript is Awesome</a>
-          <p>By Issac Newton</p>
+          <p class="related-author">By Issac Newton</p>
         </li>
       </ul>
     </aside>
 
-    <footer>Copyright &copy; 2023 by Vipin V</footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2023 by Vipin V</p>
+    </footer>
   </body>
 </html>
