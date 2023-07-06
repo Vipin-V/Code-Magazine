@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  border: 5px solid;
+  line-height: 1.4;
+}
+
+h1 {
+  text-align: center;
+  background-color: aliceblue;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+button {
+  background-color: black;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 30px;
+}
+
+.shipping {
+  font-weight: bold;
+  color: #444;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+li {
+  list-style: square;
+}
