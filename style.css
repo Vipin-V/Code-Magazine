@@ -1,11 +1,7 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
   font-family: sans-serif;
   color: #444;
+  border-top: 10px solid #1098ad;
 }
 
 h1,
@@ -66,4 +62,24 @@ aside {
   background-color: #f7f7f7;
   border-top: #1098ad solid 5px;
   border-bottom: #1098ad solid 5px;
+}
+
+/* Styling HyperLinks */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: orangered;
+  text-decoration: underline dotted orangered;
+}
+
+a:active {
+  background-color: #444;
+  font-style: italic;
 }
