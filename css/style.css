@@ -11,10 +11,23 @@ body {
   border-top: 10px solid #1098ad;
 }
 
+/* Container */
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Main Header */
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
+  margin-bottom: 50px;
+  height: 80px;
+}
+
+.post-header {
+  margin-bottom: 40px;
 }
 
 /* Heading Section */
@@ -31,10 +44,13 @@ h1 {
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -46,9 +62,17 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 
 /* List section*/
+
+ul,
+ol {
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
 li {
   font-size: 20px;
   margin-bottom: 10px;
@@ -78,10 +102,13 @@ li:last-child {
 }
 
 /* Related Posts */
-aside {
+.related-posts {
   background-color: #f7f7f7;
   border-top: #1098ad solid 5px;
   border-bottom: #1098ad solid 5px;
+  padding: 50px 0;
+  margin-left: 0;
+  margin-right: 50px;
 }
 
 /* Styling HyperLinks */
@@ -102,4 +129,9 @@ a:hover {
 a:active {
   background-color: #444;
   font-style: italic;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
 }
