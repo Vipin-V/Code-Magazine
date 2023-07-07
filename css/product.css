@@ -1,6 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: 5px solid;
+  width: 820px;
+  margin: 50px auto;
+  line-height: 1.5;
+}
 body {
   font-family: sans-serif;
-  border: 5px solid;
   line-height: 1.4;
 }
 
@@ -8,10 +18,12 @@ h1 {
   text-align: center;
   background-color: aliceblue;
   text-transform: uppercase;
+  padding: 15px;
 }
 
 h3 {
   text-transform: uppercase;
+  margin: 10px;
 }
 
 /* Button */
@@ -22,12 +34,15 @@ h3 {
   border: none;
   font-size: 20px;
   cursor: pointer;
+  width: 100%;
+  border-top: 5px solid black;
 }
 
 .add-cart:hover {
   background-color: white;
   color: black;
   text-transform: uppercase;
+  border-top: 5px solid black;
 }
 
 .price {
@@ -37,6 +52,7 @@ h3 {
 .shipping {
   font-weight: bold;
   color: #444;
+  margin-bottom: 20px;
 }
 
 .more-info:link,
@@ -51,4 +67,9 @@ h3 {
 
 li {
   list-style: square;
+  margin-left: 30px;
+}
+
+li:last-child {
+  margin-bottom: 10px;
 }
