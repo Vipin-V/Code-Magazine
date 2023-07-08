@@ -3,15 +3,30 @@
   padding: 0;
 }
 
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
 .container {
   border: 5px solid;
   width: 820px;
   margin: 50px auto;
   line-height: 1.5;
+  position: relative;
 }
-body {
-  font-family: sans-serif;
-  line-height: 1.4;
+.container::before {
+  content: "SALE";
+  letter-spacing: 2px;
+  font-size: 13px;
+  color: aliceblue;
+  font-weight: bold;
+  background-color: red;
+  display: inline-block;
+  padding: 3px 10px;
+  position: absolute;
+  left: -30px;
+  top: -15px;
 }
 
 h1 {
@@ -63,6 +78,53 @@ h3 {
 .more-info:hover,
 .more-info:active {
   text-decoration: none;
+}
+
+/* Color Boxes */
+.color-box {
+  margin: 20px;
+}
+
+.color-box1 {
+  background-color: red;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+}
+
+.color-box2 {
+  background-color: green;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+}
+
+.color-box3 {
+  background-color: yellow;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+}
+
+.color-box4 {
+  background-color: brown;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+}
+
+.color-box5 {
+  background-color: black;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+}
+
+.color-box6 {
+  background-color: purple;
+  height: 25px;
+  width: 25px;
+  display: inline-block;
 }
 
 li {
