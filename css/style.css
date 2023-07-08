@@ -9,6 +9,16 @@ body {
   font-family: sans-serif;
   color: #444;
   border-top: 10px solid #1098ad;
+  position: relative;
+}
+
+button {
+  font-size: 22px;
+  padding: 20px;
+  margin: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /* Container */
@@ -42,9 +52,27 @@ h1 {
   font-style: italic;
 }
 
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
 h2 {
   font-size: 40px;
   margin-bottom: 30px;
+  position: relative;
+}
+
+h2::after {
+  content: "Top";
+  font-size: 15px;
+  background-color: #ffe70e;
+  position: absolute;
+  font-weight: bold;
+  padding: 3px 10px;
+  color: #444;
+  right: -5px;
+  top: -10px;
 }
 
 h3 {
