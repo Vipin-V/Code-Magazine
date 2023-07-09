@@ -23,7 +23,7 @@ button {
 
 /* Container */
 .container {
-  width: 800px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -132,12 +132,13 @@ li:last-child {
 
 /* Related Posts */
 .related-posts {
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   border-top: #1098ad solid 5px;
   border-bottom: #1098ad solid 5px;
   padding: 50px 0;
   margin-left: 0;
   margin-right: 50px;
+  width: 500px;
 }
 
 /* Styling HyperLinks */
@@ -164,4 +165,42 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+/* FLOATS */
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+article {
+  background-color: green;
+}
+
+aside {
+  background-color: #ffe70e;
+}
+
+footer {
+  background-color: purple;
 }
