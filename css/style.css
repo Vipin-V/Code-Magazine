@@ -194,18 +194,18 @@ nav {
 }
 
 article {
-  background-color: green;
+  /* background-color: green; */
   width: 825px;
   float: left;
 }
 
 aside {
-  background-color: #ffe70e;
+  /* background-color: #ffe70e; */
   width: 300px;
   float: right;
 }
 
 footer {
-  background-color: purple;
+  /* background-color: purple; */
   clear: both;
 }
