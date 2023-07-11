@@ -137,8 +137,8 @@ li:last-child {
   border-bottom: #1098ad solid 5px;
   padding: 50px 0;
   margin-left: 0;
-  margin-right: 50px;
-  width: 500px;
+  /* margin-right: 50px; */
+  /* width: 500px; */
 }
 
 /* Styling HyperLinks */
@@ -195,12 +195,17 @@ nav {
 
 article {
   background-color: green;
+  width: 825px;
+  float: left;
 }
 
 aside {
   background-color: #ffe70e;
+  width: 300px;
+  float: right;
 }
 
 footer {
   background-color: purple;
+  clear: both;
 }
