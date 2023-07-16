@@ -24,6 +24,7 @@ body {
 .contain3 {
   float: left;
   width: 240px;
+  padding-left: 40px;
 }
 
 .container {
