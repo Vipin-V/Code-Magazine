@@ -10,7 +10,7 @@ body {
   font-family: sans-serif;
   color: #444;
   border-top: 10px solid #1098ad;
-  border-width: 1200px;
+  /* border-width: 1200px; */
   position: relative;
 }
 
