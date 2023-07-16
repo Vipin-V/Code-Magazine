@@ -1,11 +1,29 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: sans-serif;
   line-height: 1.4;
+}
+
+.contain1 {
+  float: left;
+  display: block;
+  width: 240px;
+}
+
+.contain2 {
+  float: left;
+  width: 240px;
+  padding-left: 40px;
+}
+
+.contain3 {
+  float: left;
+  width: 240px;
 }
 
 .container {
