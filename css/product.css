@@ -12,19 +12,20 @@ body {
 .contain1 {
   float: left;
   display: block;
-  width: 240px;
+  width: 243px;
+  margin-right: 40px;
 }
 
 .contain2 {
   float: left;
-  width: 240px;
-  padding-left: 40px;
+  width: 243px;
+  margin-right: 40px;
+  margin-top: 20px;
 }
 
 .contain3 {
   float: left;
-  width: 240px;
-  padding-left: 40px;
+  width: 243px;
 }
 
 .container {
@@ -81,12 +82,18 @@ h3 {
 
 .price {
   font-size: 30px;
+  float: left;
 }
 
 .shipping {
   font-weight: bold;
   color: #444;
   margin-bottom: 20px;
+  float: right;
+}
+
+.product-description {
+  clear: both;
 }
 
 .more-info:link,
