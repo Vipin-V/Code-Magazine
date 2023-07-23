@@ -170,7 +170,7 @@ a:active {
   height: auto;
 }
 
-/* FLOATS */
+/* FLOATS
 .author-img {
   float: left;
   margin-bottom: 20px;
@@ -197,19 +197,57 @@ nav {
 }
 
 article {
-  /* background-color: green; */
+  
   width: 825px;
   float: left;
 }
 
 aside {
-  /* background-color: #ffe70e; */
+  
   width: 300px;
   float: right;
   padding: 50px 40px;
 }
 
 footer {
-  /* background-color: purple; */
+  
   clear: both;
+} 
+*/
+
+/* !Flexbox */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+}
+
+.related-link:link {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.related-author {
+  margin-bottom: 0;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
 }
