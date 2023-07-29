@@ -21,7 +21,6 @@ body {
 button {
   font-size: 22px;
   padding: 20px;
-  margin: 50px;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -259,6 +258,7 @@ footer {
 }
 
 .row {
+  position: relative;
   display: flex;
   gap: 75px;
   flex: 0 0 825px;
