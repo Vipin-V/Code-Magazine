@@ -9,12 +9,6 @@ body {
   line-height: 1.4;
 }
 
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
 .container {
   /*   background-color: red; */
 }
@@ -176,9 +170,17 @@ body {
   justify-content: space-between;
 }
 
-.container {
-  display: flex;
-  /* align-items: center; */
-  /* justify-content: space-between; */
-  gap: 40px;
+/*! CSS Grid */
+.gBox {
+  display: grid;
+  grid-template-columns: 1fr 250px 1fr;
+  column-gap: 30px;
+}
+
+.product-title {
+  grid-column: 1/ -1;
+}
+
+.add-cart {
+  grid-column: 1/-1;
 }
