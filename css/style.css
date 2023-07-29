@@ -377,9 +377,14 @@ aside {
 /*! CSS GRID LAYOUT */
 .container {
   display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 60px;
+  align-items: start;
 }
 
 .main-header {
+  grid-column: 1 / -1;
 }
 
 article {
@@ -389,4 +394,5 @@ aside {
 }
 
 footer {
+  grid-column: 1 / -1;
 }
