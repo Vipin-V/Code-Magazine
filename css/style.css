@@ -12,7 +12,7 @@ body {
   /* border-width: 1200px; */
   position: relative;
 }
-.border{
+.border {
   width: 125%;
   position: absolute;
   border-top: 10px solid #1098ad;
@@ -257,7 +257,8 @@ footer {
   font-size: 14px;
 }
 
-.row {
+/* FlexBox Layout */
+/* .row {
   position: relative;
   display: flex;
   gap: 75px;
@@ -272,9 +273,11 @@ article {
 }
 
 aside {
-  /* DEFAULT 
+  //DEFAULT 
   flex-grow: 0;
   flex-shrink: 1;
-  flex-basis: auto; */
+  flex-basis: auto; 
   flex: 0 0 300px;
-}
+} */
+
+/*! CSS Grid Layout */
