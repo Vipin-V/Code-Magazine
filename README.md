@@ -2,7 +2,7 @@
 
 Basic Webpage!!!
 
-- its a blogging website build using HTML, CSS.
-- it also have a product section.
+- Its a simple Blogging website build using HTML, CSS.
+- It also have a product section.
 - Applyed fluxbox.
 - Applyed CSS Grid Layout.
