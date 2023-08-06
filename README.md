@@ -6,4 +6,4 @@ Basic Webpage!!!
 - It also have a product section.
 - Applyed fluxbox.
 - Applyed CSS Grid Layout.
-- will add a design practice page (basic ecommerce homepage).
+- Will add a design practice page (Basic ecommerce homepage).
