@@ -21,7 +21,7 @@ Grey Color: #343a40
 /* GENERAL STYLES */
 /* ------------------------ */
 body {
-  font-family: 'Inter' , sans-serif;
+  font-family: "Inter", sans-serif;
   color: #343a40;
   border-bottom: 8px solid #087f5b;
 }
@@ -39,7 +39,7 @@ section {
 h2 {
   margin-bottom: 48px;
   font-size: 30px;
-  line-spacing: -0.5;
+  letter-spacing: -0.5;
 }
 
 .grid-3-cols {
@@ -48,8 +48,9 @@ h2 {
   column-gap: 80px;
 }
 
-.btn:link, .btn:visited{
-  color:#fff;
+.btn:link,
+.btn:visited {
+  color: #fff;
   background-color: #087f5b;
   text-decoration: none;
   text-transform: uppercase;
@@ -57,16 +58,17 @@ h2 {
   display: inline-block;
 }
 
-.btn:hover, .btn:active{
+.btn:hover,
+.btn:active {
   background-color: #099268;
 }
 
-.btn--big{
+.btn--big {
   font-size: 18px;
   padding: 16px 32px;
 }
 
-.btn--small{
+.btn--small {
   font-size: 14px;
   padding: 8px 12px;
 }
@@ -89,7 +91,7 @@ header {
 
 h1 {
   margin-bottom: 24px;
-  font-size:44px;
+  font-size: 44px;
   line-height: 1.1;
   letter-spacing: -1px;
 }
@@ -142,7 +144,7 @@ img {
 .testimonial-text {
   font-style: italic;
   margin-bottom: 24px;
-  line-height: 1.7; 
+  line-height: 1.7;
 }
 
 /* CHAIRS */
@@ -181,7 +183,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   font-size: 20px;
- }
+}
 
 footer {
   margin-bottom: 48px;
