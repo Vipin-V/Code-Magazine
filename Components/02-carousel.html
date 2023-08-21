@@ -10,17 +10,17 @@
     />
     <style>
       /*
-      SPACING SYSTEM (px)
-      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+            SPACING SYSTEM (px)
+            2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
-      FONT SIZE SYSTEM (px)
-      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
-      */
+            FONT SIZE SYSTEM (px)
+            10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+            */
 
       /*
-      Main Color: #087f5b
-      Grey Color: #343a40
-      */
+            Main Color: #087f5b
+            Grey Color: #343a40
+            */
 
       * {
         margin: 0;
@@ -48,17 +48,20 @@
         background-color: #087f5b;
         width: 800px;
         margin: 100px auto;
-        border-radius: 8px;
-        padding: 32px;
+
+        /* padding: 32px;
         padding-left: 86px;
+        padding-right: 48px; */
+        padding: 32px 48px 32px 86px;
+
+        border-radius: 8px;
+        position: relative;
 
         display: flex;
         align-items: center;
         gap: 86px;
       }
 
-      .testimonial {
-      }
       .testimonial-text {
         font-size: 18px;
         font-weight: 500;
@@ -75,7 +78,61 @@
         font-size: 12px;
         color: #c3fae8;
       }
+
+      /* Controls */
       .btn {
+        background-color: #fff;
+        border: none;
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+      }
+
+      .btn--left {
+        left: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .btn--right {
+        right: 0;
+        top: 50%;
+        transform: translate(50%, -50%);
+      }
+
+      .btn-icon {
+        height: 24px;
+        width: 24px;
+        stroke: #087f5b;
+      }
+
+      /* Dots */
+      .dot {
+        height: 12px;
+        width: 12px;
+        background-color: #fff;
+        border: 2px solid #087f5b;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      .dots {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 32px);
+
+        display: flex;
+        gap: 12px;
+      }
+
+      .dot--fill {
+        background-color: #087f5b;
       }
     </style>
   </head>
@@ -86,12 +143,12 @@
         <p class="testimonial-text">
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
           est veritatis quos, fugit, nobis eveniet suscipit doloribus vitae
-          dicta animi aliquam aspernatur vero."
+          dicta animi aliquam."
         </p>
         <p class="testimonial-author">Maria de Almeida</p>
         <p class="testimonial-job">Senior Product Manager at Akaraii</p>
       </blockquote>
-      <!-- <button class="btn">
+      <button class="btn btn--left">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -107,7 +164,7 @@
           />
         </svg>
       </button>
-      <button class="btn">
+      <button class="btn btn--right">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -122,7 +179,13 @@
             d="M8.25 4.5l7.5 7.5-7.5 7.5"
           />
         </svg>
-      </button> -->
+      </button>
+      <div class="dots">
+        <button class="dot dot--fill">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+      </div>
     </div>
   </body>
 </html>
