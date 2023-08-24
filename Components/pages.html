@@ -35,8 +35,128 @@
         font-family: "Inter", sans-serif;
         color: #343a40;
         line-height: 1;
+
+        display: flex;
+        justify-content: center;
+      }
+
+      /* Controls */
+      .tst {
+        border: 2px solid #fff;
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+        border-radius: 50%;
+        font-size: 18px;
+        display: inline-block;
+      }
+      .btn {
+        background-color: #fff;
+        border: 2px solid #087f5b;
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        border-radius: 50%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); */
+        cursor: pointer;
+      }
+
+      .btn--left {
+        left: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .btn--right {
+        right: 0;
+        top: 50%;
+        transform: translate(50%, -50%);
+      }
+
+      .btn-icon {
+        height: 24px;
+        width: 24px;
+        stroke: #087f5b;
+      }
+      .tst:hover {
+        background-color: #087f5b;
+        color: #fff;
+        stroke: #fff;
+      }
+      .filled {
+        background-color: #087f5b;
+        color: #fff;
+      }
+
+      /* Page no. */
+
+      a {
+        text-decoration: none;
+        flex: 1;
+        color: #343a40;
+        background-color: #087f5b;
+        padding: 5px;
+      }
+
+      .container {
+        /* background-color: blueviolet; */
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 200px;
+        width: 400px;
+        position: relative;
+
+        display: flex;
+        justify-content: center;
       }
     </style>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <button class="tst">1</button>
+      <button class="tst">2</button>
+      <button class="tst filled">3</button>
+      <button class="tst">4</button>
+      <button class="tst">5</button>
+      <button class="tst">6</button>
+      <button class="tst">...</button>
+      <button class="tst">23</button>
+      <button class="btn btn--left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
+      </button>
+      <button class="btn btn--right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          />
+        </svg>
+      </button>
+    </div>
+  </body>
 </html>
