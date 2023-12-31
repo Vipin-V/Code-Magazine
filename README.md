@@ -7,3 +7,6 @@ Basic Webpage!!!
 - Applyed fluxbox.
 - Applyed CSS Grid Layout.
 - Will add a design practice page (Basic ecommerce homepage).
+
+## preview
+https://vipin-v.github.io/Code-Magazine/
